@@ -9,3 +9,8 @@ And you should see flip clock goodness. Keep in mind that this was something I w
 cool and I thought I'd throw this up there for people to see :)
 
 Screenshot is included in the repo.
+
+#Credits
+
+I should note that this is not all 100% original stuff. I did pull a lot of code together from various different websites, which I'll dig up and make sure
+get their proper credit here. In the meantime, if you happen to stumble on this and recognize anything as your own, let me know and I'll get your name up here.
