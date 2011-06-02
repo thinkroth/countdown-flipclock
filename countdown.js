@@ -24,12 +24,10 @@
 			if (days < 1000 )
 			{
 				FlipClock.changeValue($('#d2'), days % 10);
-				console.log("less than 1000 days");
 			}
 			else 
 			{
 				FlipClock.changeValue($('#d2'), days % 100);
-				console.log("more than 1000 days");
 			}
             FlipClock.changeValue($('#h1'), Math.floor(hours / 10));
             FlipClock.changeValue($('#h2'), hours % 10);
