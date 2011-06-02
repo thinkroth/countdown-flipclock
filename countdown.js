@@ -17,10 +17,20 @@
             var hours = Math.floor((difference % 86400) / 3600);
             var mins  = Math.floor((difference % 3600) / 60);
             var secs  = Math.floor(difference % 60);
-
+			console.log(days);
             // Update the clock elements
             FlipClock.changeValue($('#d1'), Math.floor(days / 10));
-            FlipClock.changeValue($('#d2'), days % 10);
+            
+			if (days < 1000 )
+			{
+				FlipClock.changeValue($('#d2'), days % 10);
+				console.log("less than 1000 days");
+			}
+			else 
+			{
+				FlipClock.changeValue($('#d2'), days % 100);
+				console.log("more than 1000 days");
+			}
             FlipClock.changeValue($('#h1'), Math.floor(hours / 10));
             FlipClock.changeValue($('#h2'), hours % 10);
             FlipClock.changeValue($('#m1'), Math.floor(mins / 10));
